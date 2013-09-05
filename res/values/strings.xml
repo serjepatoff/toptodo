@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TOPTodo</string>
+    <string name="action_settings">Settings</string>
+    <string name="input_hint">Enter a Task</string>
+    <string name="submit_button">Submit</string>
+    <string name="title_activity_login">TOPTodo Log In</string>
+    <string name="title_activity_register">TOPTodo Register</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_sort_by_due_date">Sort by due date</string>
+    <string name="action_sort_by_urgency">Sort by urgency</string>
+    <string name="action_sort_by_alphabet">Sort by alphabet</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_add_item">Add item</string>
+    <string name="username">Username:</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="password">Password:</string>
+    <string name="sign_in">Sign In</string>
+    <string name="header">Title:</string>
+    <string name="details">Details:</string>
+    <string name="save">Save</string>
+    <string name="discard">Discard</string>
+    <string name="due_date">Due date:</string>
+    <string name="urgency">Urgency:</string>
+    <string name="username_taken">User name is already taken. Choose another one.</string>
+    <string name="username_missing">User name missing</string>
+    <string name="password_missing">Password missing</string>
+    <string name="object_not_found">Invalid credentials</string>
+    <string name="connection_failed">Connection failed</string>
+    <string name="connection_timeout">Connection timed out </string>
+    <string name="connection_unknown_error">Unknown connection error</string>
+    <string name="app_id">2w78O0PcE7ll1Eur3LLIGZ6V3C6c2HI57xojANN0</string>
+    <string name="client_key">IuTeMnbszJjdsIIRXJeJKa37gaIgzCCv3N3qOwg4</string>
+    <string name="push_intent_key">com.example.toptodo.action.PUSH</string>
+	<string name="push_channel_key">TopTODO_UPDATE</string>
+	<string name="push_action_key">action</string>
+	<string name="push_token_key">token</string>
+	<string name="attachment_key">attachment</string>
+	<string name="header_key">header</string>
+	<string name="details_key">details</string>
+	<string name="closed_key">closed</string>
+	<string name="urgency_key">urgency</string>
+	<string name="due_date_key">dueDate</string>
+	<string name="position_key">position</string>
+</resources>

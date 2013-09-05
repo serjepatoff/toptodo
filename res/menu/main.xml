@@ -1,0 +1,47 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item
+        android:id="@+id/action_sort_by_due_date"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_sort_by_due_date"
+	/>
+    
+    <item
+        android:id="@+id/action_sort_by_urgency"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_sort_by_urgency"
+	/>
+    
+    <item
+        android:id="@+id/action_sort_by_alphabet"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_sort_by_alphabet"
+	/>
+    
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_logout"
+	/>
+    
+    <item
+        android:id="@+id/action_add_item"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_add_item"
+        android:icon="@drawable/ic_add_item"
+	/>
+    
+    <item
+        android:id="@+id/action_refresh"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_refresh"
+        android:icon="@drawable/ic_refresh"
+	/>
+
+</menu>

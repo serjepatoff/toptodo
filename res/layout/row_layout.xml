@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/list_item_height"
+    android:padding="4dip" 
+    android:focusable="false"
+    android:descendantFocusability="blocksDescendants" 
+    >
+
+    <com.example.toptodo.UrgencyView
+        android:id="@+id/listIcon"
+        android:layout_width="24dip"
+        android:layout_height="48dip"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="10dip" 
+        android:src="@drawable/ic_ok"
+        android:gravity="left"
+        android:focusable="false"
+        />
+    
+    <ImageButton
+        android:id="@+id/itemDeleteIcon"
+        android:layout_width="36dip"
+        android:layout_height="36dip"
+        android:scaleType="fitXY"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="0dip" 
+        android:src="@drawable/ic_cross_round"
+        android:background="#00000000"
+        android:onClick="onItemDeleteClicked"
+        android:focusable="false"
+        />
+    
+    <TextView
+        android:id="@+id/listHeader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/listIcon"
+        android:layout_toLeftOf="@id/itemDeleteIcon"
+        android:layout_alignWithParentIfMissing="true"
+        android:gravity="top"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/listDetail1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/listIcon"
+        android:layout_toLeftOf="@id/itemDeleteIcon"
+        android:layout_below="@id/listHeader"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/listDetail2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/listIcon"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@id/itemDeleteIcon"
+        android:layout_below="@id/listDetail1"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:textSize="12sp" />
+    
+
+</RelativeLayout>
